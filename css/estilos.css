@@ -1,19 +1,40 @@
 body
 {
-    color: rgb(30, 255, 0);
+    color: rgba(87, 49, 87, 1);
     text-align: center;
     font-family: Arial;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
+
+#cabecera
+{
+    background: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container
 {
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid #e7a61a;
     margin: 0 auto;
+    box-shadow: 11px 14px 30px 22px rgba(87, 49, 87, 1);
+    -moz-box-shadow: 10 px 13px 38px 17px rgba(102,15,102,1);
+    -webkit-box-shadow: 10px 13px 38px 17px
 }
 
 #container h1
